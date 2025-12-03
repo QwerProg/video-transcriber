@@ -21,9 +21,7 @@ public class VideoTranscriberApplication {
     public static void main(String[] args) {
         createTempDirectory();
         SpringApplication.run(VideoTranscriberApplication.class, args);
-        System.out.println("\n✅ Video Transcriber started successfully!");
         System.out.println("✅ 视频转录器启动成功!");
-        System.out.println("\n➡️ Access the application at: http://localhost:8080");
         System.out.println("➡️ 访问该应用程序: http://localhost:8080");
         System.out.println("ℹ️ Temporary files will be stored in: " + TEMP_DIR.toAbsolutePath());
 
