@@ -71,7 +71,7 @@
             <artifactId>spring-webflux</artifactId>
         </dependency>
 
-        <!-- JSON Handling (included with web starter, but explicit can be good) -->
+        <!-- JSON -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
