@@ -20,7 +20,7 @@
 | 前端 | Vue 3 + Vite + Tailwind CSS |
 | 后端 | FastAPI (Python 3.12) |
 | AI | DeepSeek API + Faster-Whisper |
-| 视频 | yt-dlp (1800+ 平台) |
+| 视频 | yt-dlp |
 | 支付 | Stripe Checkout |
 | 数据库 | SQLite (WAL 模式) |
 
@@ -37,7 +37,7 @@ cp .env.example .env  # 编辑 .env 填入 API Key
 uv sync
 uv run python main.py
 
-# 前端（新终端）
+# 前端
 cd frontend
 npm install
 npm run dev
